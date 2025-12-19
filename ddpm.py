@@ -828,9 +828,9 @@ class Trainer:
 
 if __name__ == '__main__':
     trainer = Trainer(
-        dataset_path=r'./datasets',
+        dataset_path=r'./datasets/datasets_21551_6464',
         save_path=r'./ddpm_results',
-        run_name='run1',
+        run_name='run1_21551_6464',
         device='cuda' if torch.cuda.is_available() else 'cpu',
         image_size=64,
         batch_size=2,
