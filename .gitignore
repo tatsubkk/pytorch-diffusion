@@ -3,3 +3,4 @@ datasets
 *.pt
 events.out.*
 autoCalc.pbs
+generate.py
